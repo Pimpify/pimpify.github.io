@@ -1,0 +1,89 @@
+body {
+  background-image: linear-gradient(#FFF, #8cc340);
+  max-width: 100%;
+  max-height: 100%;
+  overflow-y: hidden;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: red;
+  font-weight: normal;
+  font-family: "ALK Rex Bold", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+    font-weight: normal;
+  font-family: "ALK Rex Bold", sans-serif;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  /* justify-content: center;  */
+  /* flex-direction: 'column'; */
+}
+
+#logo {
+  width: 50%;
+  height: 30%;
+}
+
+#salad {
+  width: 700px;
+  height: auto;
+}
+
+#contactContainer {
+  display: flex;
+  flex-direction: column;
+  background-color:rgba(255, 255, 255, 0.25);
+  position: absolute;
+  bottom: 32px;
+  padding: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+#contactTitle {
+
+}
+
+#contactSubtitle {
+
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  #salad {
+    width: 550px;
+    height: auto;
+  }
+} 
+
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  #salad {
+    width: 270px;
+    height: auto;
+  }
+}
